@@ -20,7 +20,7 @@ export default function Page() {
     
     
     
-    <div>
+    <div className="bg-black">
       <Navbar />
       <div className="min-h-screen ">
         <HeroSection />
