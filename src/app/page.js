@@ -7,33 +7,23 @@ import Cards from "./components/cards";
 import Book from "./components/bookcall";
 // import About from "./components/aboutus";
 
-
-
 import React from "react";
 import PartnerCompanies from "./components/partner";
 import Mobilenavbar from "./components/mobilenavbar";
 
-
-
 export default function Page() {
   return (
-    
-    
-    
-    <div>
+    <div className="bg-black">
       <Navbar />
-      <div className="min-h-screen ">
-        <HeroSection />
-        <PartnerCompanies />
-        
-      </div>
-      <Design/>
-      <Cards/>
-      <Book/>
+      <HeroSection />
+      <PartnerCompanies />
+
+      {/* <Design/> */}
+      <Cards />
+      <Book />
       {/* <Mobilenavbar/> */}
       {/* <About/> */}
       <Footer />
-      
     </div>
   );
-};
+}
