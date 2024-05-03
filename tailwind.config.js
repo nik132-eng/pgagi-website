@@ -26,7 +26,8 @@ module.exports = {
           homegradient: "rgba(134, 138, 247, 1)",
           homeblue: "rgba(0, 10, 255, 1)",
           footerbg: '#191919',
-          fheaders: '#757575'
+          fheaders: '#757575',
+          purple_cal: '#8836F1'
         },
         fontFamily: {
           sans: ['"Inter UI"', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', '"Helvetica Neue"', 'Arial', 'sans-serif', '"Apple Color Emoji"', '"Segoe UI Emoji"', '"Segoe UI Symbol"', '"Noto Color Emoji"'],
