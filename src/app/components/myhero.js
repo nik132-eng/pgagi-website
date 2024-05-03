@@ -3,8 +3,8 @@ import React, { useState } from "react";
 
 export default function HeroSection() {
   return (
-    <div className="container max-w-5xl w-4/5l mx-auto h-lvh">
-      <div className="flex justify-center flex-col items-center gap-6 my-36">
+    <div className="container max-w-5xl w-4/5l mx-auto h-5/6">
+      <div className="flex justify-center flex-col items-center gap-6 mt-36">
         <div class="bg-gradient-to-r from-homegradient to-white bg-clip-text text-transparent">
           Start your AI journey with us
         </div>

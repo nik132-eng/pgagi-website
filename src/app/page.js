@@ -22,11 +22,9 @@ export default function Page() {
     
     <div className="bg-black">
       <Navbar />
-      <div className="min-h-screen ">
         <HeroSection />
         <PartnerCompanies />
-        
-      </div>
+      
       <Design/>
       <Cards/>
       <Book/>
