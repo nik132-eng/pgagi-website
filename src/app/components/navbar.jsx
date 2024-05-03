@@ -46,6 +46,8 @@ export default function Navbar() {
     setSelectedOption("AI resources");
   };
 
+  const [activeTab, setActiveTab] = useState(0);
+
   return (
     <div className="sticky top-0 z-50 bg-transparent backdrop-blur-md flex flex-col items-center justify-center align text-white">
       <div className="flex justify-center pt-4 pb-4 font-sans max-w-5xl border-b w-4/5 border-b-gray-700">
@@ -77,10 +79,19 @@ export default function Navbar() {
         </div>
         {/* Tab section*/}
         <div className="flex gap-10 font-normal font-sans">
-          <div>What we do</div>
-          <div>What we think</div>
-          <div>Who we are</div>
-        </div>
+      <div className="relative cursor-pointer" onClick={() => setActiveTab(0)}>
+        <span className={`block text-white`}>What we do</span>
+        <div className={`absolute left-0 bottom-0 w-full h-0.5 bg-gradient-to-r ${activeTab === 0 ? 'from-blue-600' : 'from-transparent'} to-transparent transition-transform duration-500 transform scale-x-${activeTab === 0 ? '100' : '0'}`}></div>
+      </div>
+      <div className="relative cursor-pointer" onClick={() => setActiveTab(1)}>
+        <span className={`block text-white`}>What we think</span>
+        <div className={`absolute left-0 bottom-0 w-full h-0.5 bg-gradient-to-r ${activeTab === 1 ? 'from-blue-600' : 'from-transparent'} to-transparent transition-transform duration-500 transform scale-x-${activeTab === 1 ? '100' : '0'}`}></div>
+      </div>
+      <div className="relative cursor-pointer" onClick={() => setActiveTab(2)}>
+        <span className={`block text-white`}>Who we are</span>
+        <div className={`absolute left-0 bottom-0 w-full h-0.5 bg-gradient-to-r ${activeTab === 2 ? 'from-blue-600' : 'from-transparent'} to-transparent transition-transform duration-500 transform scale-x-${activeTab === 2 ? '100' : '0'}`}></div>
+      </div>
+    </div>
 
         <button class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-white rounded-2xl group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white ">
           <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-black dark:bg-gray-900 rounded-2xl group-hover:bg-opacity-0">

@@ -15,7 +15,7 @@ const PartnerCompanies = () => {
   ];
 
   return (
-    <div className="pb-8 mt-60 text-base">
+    <div className="pb-8 pt-20 mt-40 text-base bg-black z-[1]">
       <div className="flex flex-col items-center px-6">
         <h2 className="text-white pb-5 md:pb-0 whitespace-nowrap">
           Partnered with Innovators like

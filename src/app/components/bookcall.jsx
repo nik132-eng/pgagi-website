@@ -4,7 +4,7 @@ export default function Book() {
   const url = "https://calendly.com/vivek-_ou/30min";
 
   return (
-    <div className="bg-black min-h-screen min-w-full flex items-center justify-center px-2 my-20 flex-row ">
+    <div className=" min-h-screen min-w-full flex items-center justify-center px-2 my-20 flex-row ">
       <div className="flex flex-row w-full max-w-6xl p-2">
         <div className="flex items-center justify-center flex-col mb-4 md:mb-0 px-20 rounded-l-3xl  bg-gradient-to-br from-purple_cal">
           <h1 className="text-4xl mb-9 font-bold bg-gradient-to-r from-homegradient to-white bg-clip-text text-transparent">

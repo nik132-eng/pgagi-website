@@ -47,7 +47,7 @@ export default function Trending() {
     };
 
     return (
-        <section className="flex flex-col items-center mt-40">
+        <section className="flex flex-col items-center pt-40 bg-black pb-20 bg-blend-lighten hover:bg-blend-darken">
             <h3 className="text-5xl font-medium text-white bg-clip-text my-24">
                 {"Here's What's Trending!"}
             </h3>
