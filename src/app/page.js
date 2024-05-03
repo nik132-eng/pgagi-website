@@ -25,7 +25,7 @@ export default function Page() {
         <HeroSection />
         <PartnerCompanies />
       
-      <Design/>
+      {/* <Design/> */}
       <Cards/>
       <Book/>
       {/* <Mobilenavbar/> */}
