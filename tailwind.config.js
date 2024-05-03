@@ -24,7 +24,9 @@ module.exports = {
           'primary-2': '#fca311', // Vibrant Orange - Highlight, call to action
           'primary-3': '#14213d', // Deep Blue - Solid backgrounds, text
           homegradient: "rgba(134, 138, 247, 1)",
-          homeblue: "rgba(0, 10, 255, 1)"
+          homeblue: "rgba(0, 10, 255, 1)",
+          footerbg: '#191919',
+          fheaders: '#757575'
         },
         fontFamily: {
           sans: ['"Inter UI"', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', '"Helvetica Neue"', 'Arial', 'sans-serif', '"Apple Color Emoji"', '"Segoe UI Emoji"', '"Segoe UI Symbol"', '"Noto Color Emoji"'],
