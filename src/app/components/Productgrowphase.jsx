@@ -44,7 +44,10 @@ const Productgrowphase = () => {
       <span className="absolute w-[15vw] h-[20vw] rounded-full filter blur-[400px] brightness-5% bg-red-500"></span>
       <div className="flex flex-col gap-8">
 
-      <div className="max-w-6xl w-full py-60 min-h-80 flex items-center justify-center flex-col mb-4 md:mb-0 px-20 rounded-3xl shadow shadow-slate-500 bg-white bg-opacity-10 z-[2] ">
+      <div className=" bg-[url('/gif/animation.gif')] bg-no-repeat  bg-center h-full w-full md:flex items-center justify-center text-white">
+      <div className="max-w-6xl w-full py-60 min-h-80 flex items-center justify-center flex-col mb-4 md:mb-0 px-20 rounded-3xl shadow shadow-slate-500 bg-white bg-opacity-10 z-[2] ">        
+
+
         <h1 className="flex items-center justify-center text-6xl mb-9 font-bold bg-gradient-to-r from-homegradient to-white bg-clip-text text-transparent opacity-100 z-[99]">
         Here’s How We Make Our
         </h1>
@@ -52,8 +55,9 @@ const Productgrowphase = () => {
          Products Grow
          </h1>
       </div>
+      </div>
       {Designbox_data.map((item, index) => (
-            <DisplayBoxes index={index} head={item.head} text={item.text} />
+            <DisplayBoxes key={index} index={index} head={item.head} text={item.text} />
         ))}
       </div>
     </div>
