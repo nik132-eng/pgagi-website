@@ -12,6 +12,9 @@ module.exports = {
         colors: {
           // Base colors with names
        
+          backgroundImage: {
+            "custom-bg": "url('/gif/animation.gif')",
+          },
           // Custom usage colors with names
           'primary': '#14213d', // Primary Blue - Primary buttons, active links
           secondary: '#6c757d', // Secondary Gray - Secondary text, borders

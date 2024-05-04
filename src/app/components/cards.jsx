@@ -59,7 +59,7 @@ export default function Trending() {
                         style={{ backgroundImage: `url(https://source.unsplash.com/random/?${encodeURI(trending.title)})` }}
                     >
                         <div className="absolute inset-0 bg-black opacity-40"></div>
-                        <div class="absolute inset-0 bg-gradient-to-b from-black"></div>
+                        <div className="absolute inset-0 bg-gradient-to-b from-black"></div>
                         <h3 className="block text-fheaders text-xl font-semibold uppercase absolute top-14 left-4 ">{trending.title}</h3>
                         <p className="text-white text-base font-medium absolute top-24 left-4">{trending.description}</p>
                     </div>

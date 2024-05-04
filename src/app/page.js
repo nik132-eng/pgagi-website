@@ -10,6 +10,7 @@ import Book from "./components/bookcall";
 import React from "react";
 import PartnerCompanies from "./components/partner";
 import Mobilenavbar from "./components/mobilenavbar";
+import Productgrowphase from "./components/Productgrowphase";
 
 export default function Page() {
   return (
@@ -20,6 +21,7 @@ export default function Page() {
 
       {/* <Design/> */}
       <Cards />
+      <Productgrowphase /> 
       <Book />
       {/* <Mobilenavbar/> */}
       {/* <About/> */}
